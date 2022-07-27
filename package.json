@@ -1,0 +1,28 @@
+{
+  "name": "do-do-doodle",
+  "version": "1.0.0",
+  "description": "Multi-client web-based drawing game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajbarcenas/Do-Do-Doodle.git"
+  },
+  "author": "Alexisis Barcenas, Luis Aguilar, and Cesar Lara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajbarcenas/Do-Do-Doodle/issues"
+  },
+  "homepage": "https://github.com/ajbarcenas/Do-Do-Doodle#readme",
+  "dependencies": {
+    "express": "3.x",
+    "socket.io": "0.9",
+    "websockets": "^0.2.0",
+    "ws": "^7.4.4"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
